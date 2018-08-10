@@ -1,0 +1,100 @@
+.blue-moon{
+    width:20px;
+}
+.media{
+    color:black;
+}
+.responsive {
+    width: 50%;
+    height: auto;
+    margin-left:25%;
+}
+.tooltip-img{
+    float:left;
+    margin-right:10px;
+}
+.popover{
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.3);
+    border:none;
+    border-radius:0;
+    max-width:40%;
+}
+.media-object{
+    float: left;
+    margin-right: 10px;
+}
+.super-moon{
+    margin: 50px 0px;
+}
+.shu{
+    width: 150px;
+    height: 134px;
+    margin-top: 10px;
+}
+.liquid_water{
+    width:100%;
+    margin-bottom:10px;
+}
+.highlight{
+    background-color: #f0f0f0;
+}
+.lunar-eclipse{
+    float:left;
+    width:100%;
+    word-wrap:break-word;
+}
+.title{
+    margin-left:16px;
+}
+.close{
+    margin-right:22px;
+}
+.google{
+    width:25px;
+}
+.link-to-new-tab{
+    margin-left: 45px;
+    font-size: 10px;
+    top: -19px;
+    position: relative;
+}
+.img-water{
+    width:100%;
+}
+.icon-small-screen{
+    display:none;
+}
+@media only screen and (min-width: 720px){
+    .popover1{
+        display:none !important;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .responsive {
+        width: 100%;
+        height: auto;
+        margin-left:0;
+    }
+    .popover{
+        display:none !important;
+    }
+    .popover1{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background:#f2f3f4;
+        height: 50%;
+        display:none;
+        overflow-y: scroll;
+    }
+    .super-moon{
+        margin:0;
+    }
+    .icon-big-screen{
+        display:none;
+    }
+    .icon-small-screen{
+        display:inline-block;
+    }
+}
+
